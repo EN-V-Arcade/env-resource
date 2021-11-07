@@ -13,3 +13,4 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v2
         with:
           path: .
+          token: ${{ github.token }}
